@@ -37,12 +37,11 @@ li {
 
 .references {
     display: flex;
-    float: left;
+    flex-wrap: wrap;
     max-width: 60%;
 }
 
 .category {
-    max-width: 490px;
     background-color: #FEFE00;
     border: 2px solid black;
 }
@@ -53,6 +52,9 @@ li {
 }
 
 .example {
+    position: sticky;
+    top: 0;
     border: 2px solid black;    
     width: 40%;    
+    padding: 10px;
 }
