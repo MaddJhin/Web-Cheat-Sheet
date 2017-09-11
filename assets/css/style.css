@@ -1,0 +1,17 @@
+.nav-bar{
+    background-color: black
+}
+
+.references {
+    display: flex;
+}
+
+.category {
+    background-color: #FEFE00;
+    border: 2px solid black;
+}
+
+.category-header {
+    background-color: rgba(208, 208, 12, 0.31);
+}
+
