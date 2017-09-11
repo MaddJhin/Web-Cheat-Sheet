@@ -16,6 +16,7 @@
 
     <!-- External Files -->
     <script src="assets/js/page.js"></script>
+    
 
 </head>
 <body>
@@ -24,311 +25,184 @@
     </nav>
 
     <div class="content">
-        <div class="references">
+        <div class="references" id="reference-dump">
             <div class="category">
                 <div class="category-header">
-                    <h2>Test Header</h2>
+                    <h2>Selectors</h2>
                 </div>
+                
                 <div class="category-body">
                     <section>
-                        <h3>Section Title</h3>
+                        <h3>Basics</h3>
                         <ul>
-                            <li>Test Link One</li>
-                            <li>Test Link Two</li>
-                            <li>Test Link Three</li>
-                            <li>Test Link Four</li>
-                            <li>Test Link Five</li>
+                            <li>*</li>
+                            <li>.class</li>
+                            <li>element</li>
+                            <li>#id</li>
+                            <li>selector1, selectorN, ...</li>
                         </ul>
                     </section>
+                    
                     <section>
-                        <h3>Section Title</h3>
+                        <h3>Hierarchy</h3>
                         <ul>
-                            <li>Test Link One</li>
-                            <li>Test Link Two</li>
-                            <li>Test Link Three</li>
-                            <li>Test Link Four</li>
-                            <li>Test Link Five</li>
+                            <li>parent &gt; child</li>
+                            <li>ancestor descendant</li>
+                            <li>prev + next</li>
+                            <li>prev ~ siblings</li>
                         </ul>
                     </section>
+                    
                     <section>
-                        <h3>Section Title</h3>
+                        <h3>Filters</h3>
                         <ul>
-                            <li>Test Link One</li>
-                            <li>Test Link Two</li>
-                            <li>Test Link Three</li>
-                            <li>Test Link Four</li>
-                            <li>Test Link Five</li>
+                            <li>:animated</li>
+                            <li>:eq()</li>
+                            <li>:even</li>
+                            <li>:first</li>
+                            <li>:gt()</li>
+                            <li>:header</li>
+                            <li>:lang()</li>
+                            <li>:last</li>
+                            <li>:lt()</li>
+                            <li>:not()</li>
+                            <li>:odd</li>
+                            <li>:root</li>
+                            <li>:target</li>
+                        </ul>    
+                    </section>
+                    
+                    <section>
+                        <h3>Content Filters</h3>
+                        <ul>
+                            <li>:contains()</li>
+                            <li>:empty</li>
+                            <li>:has()</li>
+                            <li>:parent</li>
                         </ul>
                     </section>
+                    
                     <section>
-                        <h3>Section Title</h3>
+                        <h3>Visibility Filters</h3>
                         <ul>
-                            <li>Test Link One</li>
-                            <li>Test Link Two</li>
-                            <li>Test Link Three</li>
-                            <li>Test Link Four</li>
-                            <li>Test Link Five</li>
+                            <li>:hidden</li>
+                            <li>:visible</li>
                         </ul>
                     </section>
+                    
                     <section>
-                        <h3>Section Title</h3>
+                        <h3>Attribute</h3>
                         <ul>
-                            <li>Test Link One</li>
-                            <li>Test Link Two</li>
-                            <li>Test Link Three</li>
-                            <li>Test Link Four</li>
-                            <li>Test Link Five</li>
+                            <li>[name|="value"]</li>
+                            <li>[name*="value"]</li>
+                            <li>[name~="value"]</li>
+                            <li>[name$="value"]</li>
+                            <li>[name="value"]</li>
+                            <li>[name!="value"]</li>
+                            <li>[name^="value"]</li>
+                            <li>[name]</li>
+                            <li>[name="value"][name2="value2"]</li>
                         </ul>
                     </section>
+                    
                     <section>
-                        <h3>Section Title</h3>
+                        <h3>Child Filters</h3>
                         <ul>
-                            <li>Test Link One</li>
-                            <li>Test Link Two</li>
-                            <li>Test Link Three</li>
-                            <li>Test Link Four</li>
-                            <li>Test Link Five</li>
+                            <li>:first-child</li>
+                            <li>:first-of-type</li>
+                            <li>:last-child</li>
+                            <li>:last-of-type</li>
+                            <li>:nth-child()</li>
+                            <li>:nth-last-child()</li>
+                            <li>:nth-last-of-type()</li>
+                            <li>:nth-of-type()</li>
+                            <li>:only-child</li>
+                            <li>:only-of-type()</li>
                         </ul>
                     </section>
+                    
                     <section>
-                        <h3>Section Title</h3>
+                        <h3>Forms</h3>
                         <ul>
-                            <li>Test Link One</li>
-                            <li>Test Link Two</li>
-                            <li>Test Link Three</li>
-                            <li>Test Link Four</li>
-                            <li>Test Link Five</li>
+                            <li>:button</li>
+                            <li>:checkbox</li>
+                            <li>:checked</li>
+                            <li>:disabled</li>
+                            <li>:enabled</li>
+                            <li>:focus</li>
+                            <li>:file</li>
+                            <li>:image</li>
+                            <li>:input</li>
+                            <li>:password</li>
+                            <li>:radio</li>
+                            <li>:reset</li>
+                            <li>:selected</li>
+                            <li>:submit</li>
+                            <li>:text</li>
                         </ul>
                     </section>
                 </div>
             </div>
             <div class="category">
                 <div class="category-header">
-                    <h2>Test Header</h2>
+                    <h2>CSS</h2>
                 </div>
+                
                 <div class="category-body">
                     <section>
-                        <h3>Section Title</h3>
+                        <h3>Attributes</h3>
+                        <li>.attr()</li>
+                        <li>.prop()</li>
+                        <li>.removeAttr()</li>
+                        <li>.removeProp()</li>
+                        <li>.val()</li>
+                    </section>
+
+                    <section>
+                        <h3>CSS</h3>
                         <ul>
-                            <li>Test Link One</li>
-                            <li>Test Link Two</li>
-                            <li>Test Link Three</li>
-                            <li>Test Link Four</li>
-                            <li>Test Link Five</li>
+                            <li>.addClass()</li>
+                            <li>.css()</li>
+                            <li>jQuery.cssHooks</li>
+                            <li>jQuery.cssNumber</li>
+                            <li>jQuery.escapeSelector()</li>
+                            <li>.hasClass()</li>
+                            <li>.removeClass()</li>
+                            <li> .toggleClass()</li>
                         </ul>
                     </section>
+                        
                     <section>
-                        <h3>Section Title</h3>
+                        <h3>Dimensions</h3>
                         <ul>
-                            <li>Test Link One</li>
-                            <li>Test Link Two</li>
-                            <li>Test Link Three</li>
-                            <li>Test Link Four</li>
-                            <li>Test Link Five</li>
+                            <li>.height()</li>
+                            <li>.innerHeight()</li>
+                            <li>.innerWidth()</li>
+                            <li>.outerHeight()</li>
+                            <li>.outerWidth()</li>
+                            <li>.width()</li>
                         </ul>
                     </section>
+
                     <section>
-                        <h3>Section Title</h3>
+                        <h3>Offset</h3>
                         <ul>
-                            <li>Test Link One</li>
-                            <li>Test Link Two</li>
-                            <li>Test Link Three</li>
-                            <li>Test Link Four</li>
-                            <li>Test Link Five</li>
+                            <li>.offset()</li>
+                            <li>.offsetParent()</li>
+                            <li>.position()</li>
+                            <li>.scrollLeft()</li>
+                            <li>.scrollTop()</li>
                         </ul>
                     </section>
+
                     <section>
-                        <h3>Section Title</h3>
+                        <h3>Data</h3>
                         <ul>
-                            <li>Test Link One</li>
-                            <li>Test Link Two</li>
-                            <li>Test Link Three</li>
-                            <li>Test Link Four</li>
-                            <li>Test Link Five</li>
-                        </ul>
-                    </section>
-                    <section>
-                        <h3>Section Title</h3>
-                        <ul>
-                            <li>Test Link One</li>
-                            <li>Test Link Two</li>
-                            <li>Test Link Three</li>
-                            <li>Test Link Four</li>
-                            <li>Test Link Five</li>
-                        </ul>
-                    </section>
-                    <section>
-                        <h3>Section Title</h3>
-                        <ul>
-                            <li>Test Link One</li>
-                            <li>Test Link Two</li>
-                            <li>Test Link Three</li>
-                            <li>Test Link Four</li>
-                            <li>Test Link Five</li>
-                        </ul>
-                    </section>
-                    <section>
-                        <h3>Section Title</h3>
-                        <ul>
-                            <li>Test Link One</li>
-                            <li>Test Link Two</li>
-                            <li>Test Link Three</li>
-                            <li>Test Link Four</li>
-                            <li>Test Link Five</li>
-                        </ul>
-                    </section>
-                </div>
-            </div>
-            <div class="category">
-                <div class="category-header">
-                    <h2>Test Header</h2>
-                </div>
-                <div class="category-body">
-                    <section>
-                        <h3>Section Title</h3>
-                        <ul>
-                            <li>Test Link One</li>
-                            <li>Test Link Two</li>
-                            <li>Test Link Three</li>
-                            <li>Test Link Four</li>
-                            <li>Test Link Five</li>
-                        </ul>
-                    </section>
-                    <section>
-                        <h3>Section Title</h3>
-                        <ul>
-                            <li>Test Link One</li>
-                            <li>Test Link Two</li>
-                            <li>Test Link Three</li>
-                            <li>Test Link Four</li>
-                            <li>Test Link Five</li>
-                        </ul>
-                    </section>
-                    <section>
-                        <h3>Section Title</h3>
-                        <ul>
-                            <li>Test Link One</li>
-                            <li>Test Link Two</li>
-                            <li>Test Link Three</li>
-                            <li>Test Link Four</li>
-                            <li>Test Link Five</li>
-                        </ul>
-                    </section>
-                    <section>
-                        <h3>Section Title</h3>
-                        <ul>
-                            <li>Test Link One</li>
-                            <li>Test Link Two</li>
-                            <li>Test Link Three</li>
-                            <li>Test Link Four</li>
-                            <li>Test Link Five</li>
-                        </ul>
-                    </section>
-                    <section>
-                        <h3>Section Title</h3>
-                        <ul>
-                            <li>Test Link One</li>
-                            <li>Test Link Two</li>
-                            <li>Test Link Three</li>
-                            <li>Test Link Four</li>
-                            <li>Test Link Five</li>
-                        </ul>
-                    </section>
-                    <section>
-                        <h3>Section Title</h3>
-                        <ul>
-                            <li>Test Link One</li>
-                            <li>Test Link Two</li>
-                            <li>Test Link Three</li>
-                            <li>Test Link Four</li>
-                            <li>Test Link Five</li>
-                        </ul>
-                    </section>
-                    <section>
-                        <h3>Section Title</h3>
-                        <ul>
-                            <li>Test Link One</li>
-                            <li>Test Link Two</li>
-                            <li>Test Link Three</li>
-                            <li>Test Link Four</li>
-                            <li>Test Link Five</li>
-                        </ul>
-                    </section>
-                </div>
-            </div>
-            <div class="category">
-                <div class="category-header">
-                    <h2>Test Header</h2>
-                </div>
-                <div class="category-body">
-                    <section>
-                        <h3>Section Title</h3>
-                        <ul>
-                            <li>Test Link One</li>
-                            <li>Test Link Two</li>
-                            <li>Test Link Three</li>
-                            <li>Test Link Four</li>
-                            <li>Test Link Five</li>
-                        </ul>
-                    </section>
-                    <section>
-                        <h3>Section Title</h3>
-                        <ul>
-                            <li>Test Link One</li>
-                            <li>Test Link Two</li>
-                            <li>Test Link Three</li>
-                            <li>Test Link Four</li>
-                            <li>Test Link Five</li>
-                        </ul>
-                    </section>
-                    <section>
-                        <h3>Section Title</h3>
-                        <ul>
-                            <li>Test Link One</li>
-                            <li>Test Link Two</li>
-                            <li>Test Link Three</li>
-                            <li>Test Link Four</li>
-                            <li>Test Link Five</li>
-                        </ul>
-                    </section>
-                    <section>
-                        <h3>Section Title</h3>
-                        <ul>
-                            <li>Test Link One</li>
-                            <li>Test Link Two</li>
-                            <li>Test Link Three</li>
-                            <li>Test Link Four</li>
-                            <li>Test Link Five</li>
-                        </ul>
-                    </section>
-                    <section>
-                        <h3>Section Title</h3>
-                        <ul>
-                            <li>Test Link One</li>
-                            <li>Test Link Two</li>
-                            <li>Test Link Three</li>
-                            <li>Test Link Four</li>
-                            <li>Test Link Five</li>
-                        </ul>
-                    </section>
-                    <section>
-                        <h3>Section Title</h3>
-                        <ul>
-                            <li>Test Link One</li>
-                            <li>Test Link Two</li>
-                            <li>Test Link Three</li>
-                            <li>Test Link Four</li>
-                            <li>Test Link Five</li>
-                        </ul>
-                    </section>
-                    <section>
-                        <h3>Section Title</h3>
-                        <ul>
-                            <li>Test Link One</li>
-                            <li>Test Link Two</li>
-                            <li>Test Link Three</li>
-                            <li>Test Link Four</li>
-                            <li>Test Link Five</li>
+                            <li>jQuery.data()</li>
+                            <li>.data()</li>
+                            <li>jQuery.hasData()</li>
+                            <li>jQuery.removeData()</li>
+                            <li>.removeData()</li>
                         </ul>
                     </section>
                 </div>
@@ -336,7 +210,31 @@
         </div>
         <div class="example">
             <h2>Sample Code</h2>
-            <code> Code snippet goes here</code>
+            <br>
+            <div class="code-container" id="code-basic">
+                <div class="code-header">
+                    <p>Use</p>
+                </div>
+                <div class="code-body">
+                    <code> Description goes here</code>
+                </div>
+            </div>
+            <div class="code-container" id="code-syntax">
+                <div class="code-header">
+                    <p>Syntax</p>
+                </div>
+                <div class="code-body">
+                    <code> Syntax goes here</code>
+                </div>
+            </div>
+            <div class="code-container" id="code-example">
+                <div class="code-header">
+                    <p>Example</p>
+                </div>
+                <div class="code-body">
+                    <code> Code snippet goes here</code>
+                </div>
+            </div>         
         </div>
     </div>
 
